@@ -1,0 +1,474 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+	background-color: black;
+    width: 100%;
+    height: 92px;
+    z-index: 3;
+}
+
+.header__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    float: left;
+    width: 62px;
+    height: 82px;
+    margin-left: 60px;
+}
+
+.logo__header{
+    width: 62px;
+    height: 82px;
+}
+
+.nav__header {
+    display: flex;
+}
+
+.nav__header a {
+	text-decoration: none;
+}
+
+.nav__header ul.menu {
+	margin: 0;
+	padding: 0;
+    
+}
+
+.nav__header li {
+	list-style-position: inside;
+	font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.top-menu li {
+    display: inline-flex;
+    justify-content: center;
+	background-color:red;
+    width: 219px;
+    height: 60px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+.top-menu a{
+    color: black;
+    letter-spacing: 3px;    
+}
+
+li:hover {
+    font-weight: bolder;
+}
+
+/* Intro begins */
+
+.intro{
+    background: url(./Интро/Crossover.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+}
+
+.intro__content{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.intro__title{
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    margin-left: 156px;
+    width: 80%;
+    height: 50%;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.section{
+    margin-bottom: 100px;
+}
+
+/* Hero part begins */
+
+.heroes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+.heroes__wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heroes__chose{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: red;
+    margin-bottom: 74px;
+    height: 103px;
+    width: 100%;
+    align-self: normal;
+}
+
+.heroes__title{
+    margin-left: 154px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+input, textarea{
+    padding-left: 50px;
+    width: 726px;
+    height: 75px;
+    border: 10px solid white;
+    background-color: black;
+    font-size: 36px;
+    border-radius: 40px;
+    margin-bottom: 68px;
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    color: white;
+}
+
+.heroes__menu{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 54px;
+    column-gap: 25px;
+    justify-content: center;
+    margin-bottom: 111px;
+}
+
+.heroes__li .hero{
+    width: 301px;
+    height: 453px;
+}
+
+/* DLC begins */
+
+.DLC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    margin-bottom: 16px;
+}
+
+.DLC__menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1420px;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 25px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.comics{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/Comics.png);
+}
+
+.comics__title{
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.news{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/Whats_new.png);
+}
+
+.news__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.ost{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/OST.png);
+}
+
+.ost__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.fanarts{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/FanArts.png);
+}
+
+.fanarts__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+/* Footer begins */
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 255px;
+    background: #000000;
+}
+
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(./LOGO/ромб.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 4px;
+    height: 189px;
+    width: 940px;
+}
+
+.footer__wrapper__list{
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 112px;
+    width: 740px;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 14px;
+}
+
+.img__logo__footer{
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+}
+
+.nav__footer{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.nav__footer a {
+	text-decoration: none;
+}
+
+.bottom-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 740px;
+    justify-content: space-evenly;
+}
+
+.bottom-menu a{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 3px;    
+}
+
+.bottom-menu li{
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+.nav__footer li {
+	font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social__net_list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 50px;
+    align-items: end;
+}
+
+.icon__footer__facebook{
+    background: url(./Соцсети/Facebook.png);
+    width: 45px;
+    height: 45px;
+}
+
+.icon__footer__vk{
+    background: url(./Соцсети/VK.png);
+    width: 45px;
+    height: 45px;
+}
+
+.icon__footer__youtube{
+    background: url(./Соцсети/Youtube.png);
+    width: 65px;
+    height: 45px;
+}
+
+.copywrite{
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px){
+    .header__wrapper {
+        display: none;
+    }
+    
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro__title{
+        display: flex;
+        margin: 0;
+        position: relative;
+        top: 60px;
+        margin-left: 90px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+
+    input, textarea{
+        padding-left: 50px;
+        width: 100%;
+        height: 75px;
+        border: 10px solid white;
+        background-color: black;
+        font-size: 36px;
+        border-radius: 40px;
+        margin-bottom: 68px;
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.015em;
+        color: white;
+    }
+
+    .DLC__menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1420px;
+        align-items: center;
+        column-gap: 50px;
+        row-gap: 25px;
+        justify-content: center;
+        margin: 50px;
+    }
+    
+    .comics{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/Comics.png);
+    }
+    
+    .news{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/Whats_new.png);
+    }
+    
+    .ost{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/OST.png);
+    }
+    
+    .fanarts{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/FanArts.png);
+    }
+}
