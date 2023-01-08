@@ -1,0 +1,681 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+	background-color: black;
+    width: 100%;
+    height: 92px;
+    z-index: 3;
+}
+
+.header__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    float: left;
+    width: 62px;
+    height: 82px;
+    margin-left: 60px;
+}
+
+.logo__header{
+    width: 62px;
+    height: 82px;
+}
+
+.nav__header {
+    display: flex;
+}
+
+.nav__header a {
+	text-decoration: none;
+}
+
+.nav__header ul.menu {
+	margin: 0;
+	padding: 0;
+    
+}
+
+.nav__header li {
+	list-style-position: inside;
+	font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.top-menu li {
+    display: inline-flex;
+    justify-content: center;
+	background-color:red;
+    width: 219px;
+    height: 60px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+.top-menu a{
+    color: black;
+    letter-spacing: 3px;    
+}
+
+li:hover {
+    font-weight: bolder;
+}
+
+/*Intro begins*/
+
+.intro{
+	background: url(./Intro_Hazbin.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    width: 100%;
+    height: 641px;
+}
+
+.intro:after{
+    width: 100%;
+    background-color: #000;
+    opacity: 0.2;
+    content: '';
+}
+
+.intro__content{
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.intro__title{
+    margin: 0px;
+    position: relative;
+    top: 60px;
+    margin-left: 156px;
+    width: 450px;
+    height: 168px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.img_intro{
+    background-size: cover;
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+}
+
+/*Description begins*/
+.description{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: center;
+    background: #343434;
+}
+
+.description__content{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs{
+    width: 700px;
+    height: 972px;
+    display: flex;
+    margin: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descript_block_1{
+    width: 700px;
+    height: 486px;
+}
+
+.img1{
+    width: 700px;
+    height: 486px;
+}
+
+.descript_block_2{
+    width: 700px;
+    height: 486px;
+    top: 72px;
+}
+
+.img2{
+    width: 700px;
+    height: 486px;
+}
+
+.text{
+    color: #FFFFFF;
+    width: 45%;
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+/*News and updates begin*/
+.update{
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.update__content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.update__title
+{
+    color: #FFFFFF;
+    width: 608px;
+    height: 169.02px;
+    text-align: center;
+
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+
+}
+
+.newUpdate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 120px;
+}
+
+.pict1{
+    display: flex;
+    height: 705px;
+    width: 386px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Sanya{
+    width: 386px;
+    height: 502.02px;
+}
+
+.h3_1{
+    top: 0px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.update_1{
+    width: 260px;
+    
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pict2{
+    display: flex;
+    height: 705px;
+    width: 386px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Blitzo{
+    width: 386px;
+    height: 502.02px;
+}
+
+.h3_2{
+    top: 0px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.update_2{
+    width: 260px;
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pict3{
+    display: flex;
+    height: 705px;
+    width: 386px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Cake{
+    width: 386px;
+    height: 502.02px;
+}
+
+.h3_3{
+    top: 0px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.update_3{
+    width: 260px;
+    
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pict4{
+    display: flex;
+    height: 705px;
+    width: 386px;
+    margin-bottom: 105px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Frisk{
+    width: 386px;
+    height: 502.02px;
+}
+
+.h3_4{
+    top: 0px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.update_4{
+    width: 260px;
+    
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*DLS begins*/
+.DLC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    margin-bottom: 16px;
+}
+
+.DLC__menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1420px;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 25px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.comics{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/Comics.png);
+}
+
+.comics__title{
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.news{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/Whats_new.png);
+}
+
+.news__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.ost{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/OST.png);
+}
+
+.ost__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.fanarts{
+    width: 661px;
+    height: 232px;
+    background: url(./DLC_menu/FanArts.png);
+}
+
+.fanarts__title{
+    width: 266px;
+    color: white;
+    margin: 30px 58px;
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+/*footer begins*/
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 255px;
+    background: #000000;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(./LOGO/ромб.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 4px;
+    height: 189px;
+    width: 940px;
+}
+
+.footer__wrapper__list{
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 112px;
+    width: 70%;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 14px;
+}
+
+.img__logo__footer{
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+}
+
+.nav__footer{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.nav__footer a {
+	text-decoration: none;
+}
+
+.bottom-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 740px;
+    justify-content: space-evenly;
+}
+
+.bottom-menu a{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 3px;    
+}
+
+.bottom-menu li{
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+.nav__footer li {
+	font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social__net_list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 50px;
+    align-items: end;
+}
+
+.icon__footer__facebook{
+    background: url(./Соцсети/Facebook.png);
+    width: 45px;
+    height: 45px;
+}
+
+.icon__footer__vk{
+    background: url(./Соцсети/VK.png);
+    width: 45px;
+    height: 45px;
+}
+
+.icon__footer__youtube{
+    background: url(./Соцсети/Youtube.png);
+    width: 65px;
+    height: 45px;
+}
+
+.copywrite{
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.burger-menu {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+.burger-menu .block {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+    z-index: 100;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 768px){
+    .header__wrapper {
+        display: none;
+    }
+    
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .description__content {
+        display: flex;
+        column-gap: 34px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text {
+        color: #FFFFFF;
+        width: 80%;
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+
+    .imgs {
+        width: 550px;
+        height: 804px;
+        margin: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .descript_block_1 {
+        width: 550px;
+        height: 402px;
+    }
+
+    .img1 {
+        width: 550px;
+        height: 402px;
+    }
+
+    .descript_block_2 {
+        width: 550px;
+        height: 402px;
+    }
+
+    .img2 {
+        width: 550px;
+        height: 402px;
+    }
+
+    .DLC__menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1420px;
+        align-items: center;
+        column-gap: 50px;
+        row-gap: 25px;
+        justify-content: center;
+        margin: 50px;
+    }
+    
+    .comics{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/Comics.png);
+    }
+    
+    .news{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/Whats_new.png);
+    }
+    
+    .ost{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/OST.png);
+    }
+    
+    .fanarts{
+        width: 621px;
+        height: 192px;
+        background: url(./DLC_menu/FanArts.png);
+    }
+}
